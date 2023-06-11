@@ -1,4 +1,4 @@
-import { sequelize } from '@/lib/db'
+import { sequelize } from "@/lib/db";
 import { DataTypes } from 'sequelize'
 // Exportamos una funcion que define el modelo
 // Luego le injectamos la conexion a sequelize.
