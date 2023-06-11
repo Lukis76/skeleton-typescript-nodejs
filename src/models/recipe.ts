@@ -1,9 +1,9 @@
-import { sequelize } from '@/lib/db'
-import { DataTypes } from 'sequelize'
+import { sequelize } from "@/lib/db";
+import { DataTypes } from "sequelize";
 // Exportamos una funcion que define el modelo
 // Luego le injectamos la conexion a sequelize.
 
-export const recipeModel = sequelize.define('recipe', {
+export const recipeModel = sequelize.define("recipe", {
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
@@ -29,4 +29,4 @@ export const recipeModel = sequelize.define('recipe', {
     type: DataTypes.BOOLEAN,
     defaultValue: true,
   },
-})
+});

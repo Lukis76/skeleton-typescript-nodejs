@@ -1,4 +1,4 @@
-import { catchedAsync } from '@/utils'
+import { catchedAsync } from "@/utils";
 
 // import allCharacter from '@/controllers/allCharactera';
 // import createCharacter from '@/controllers/createCharacter';
